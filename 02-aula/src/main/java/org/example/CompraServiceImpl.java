@@ -36,6 +36,6 @@ public class CompraServiceImpl implements CompraService {
             }
         }
 
-        return new CompraPacelada(calcularParcelas(compra), datasDePagamento);
+        return new CompraPacelada(compra.getValor(), compra.getNumerodeParcelas(), datasDePagamento);
     }
 }

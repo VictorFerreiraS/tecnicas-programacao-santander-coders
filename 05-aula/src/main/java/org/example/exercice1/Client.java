@@ -1,4 +1,4 @@
-package org.example.exercicio1;
+package org.example.exercice1;
 
 public class Client {
     String name;
@@ -11,6 +11,16 @@ public class Client {
         this.email = email;
         this.age = age;
         this.isVip = isVip;
+    }
+
+    @Override
+    public String toString() {
+        return "Client{" +
+                "name='" + name + '\'' +
+                ", email='" + email + '\'' +
+                ", age=" + age +
+                ", isVip=" + isVip +
+                '}';
     }
 
     public String getName() {

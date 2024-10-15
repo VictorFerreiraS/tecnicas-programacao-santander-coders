@@ -1,4 +1,4 @@
-package org.example.exercice2;
+package org.example.exercice1;
 
 public class Client {
     String name;
@@ -27,15 +27,5 @@ public class Client {
 
     public Boolean getVip() {
         return isVip;
-    }
-
-    @Override
-    public String toString() {
-        return "Client{" +
-                "name='" + name + '\'' +
-                ", email='" + email + '\'' +
-                ", age=" + age +
-                ", isVip=" + isVip +
-                '}';
     }
 }

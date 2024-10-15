@@ -3,12 +3,10 @@ package org.example.exercice1;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
-import java.util.function.Consumer;
 
 
 public class Main {
     public static void main(String[] args) {
-        Consumer<Client> sendEmail = (Client cliente) -> System.out.println("Email sent to: " + cliente.name + " in the email: " + cliente.email);
 
         List<Client> clients = new ArrayList<>();
         clients.add(new Client("Alice", "alice@example.com", 23, true));
